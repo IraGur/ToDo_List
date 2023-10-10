@@ -43,8 +43,12 @@ button {
    border: none;
    border-radius: 10px;
    color: rgb(78 95 110 / 80%);
-   font-size: 23px;
+   font-size: 21px;
    cursor: pointer;
+}
+
+.remove-button {
+   font-size: 17px;
 }
 
 .tasks {
@@ -52,6 +56,8 @@ button {
    width: 60%;
    display: flex;
    flex-direction: column;
+   color: #4e5f6e;
+   font-size: 22px;
 }
 
 .task {
@@ -72,4 +78,6 @@ button {
 
 .warning {
    display: none;
+   color: #b36154;
+   font-size: 22px;
 }
